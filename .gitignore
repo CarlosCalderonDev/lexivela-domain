@@ -1,0 +1,13 @@
+# Archivos locales y temporales
+/tmp/*
+!/tmp/.gitkeep
+.env
+.env.*
+!.env.example
+*.log
+
+# Datos y credenciales locales de PostgreSQL
+*.backup
+*.dump
+pgpass.conf
+.pgpass
